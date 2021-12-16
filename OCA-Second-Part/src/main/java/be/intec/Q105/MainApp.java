@@ -50,11 +50,23 @@ public class MainApp {
 
         Person p = new Person();
 
-//        List iList= Arrays.asList(new Person(45,"Hank"),new Person(40,"Charlie"),new Person(38,"Smith"));
+//        List iList= Arrays.asList(new Person(45,"Hank"),
+//                                  new Person(40,"Charlie"),
+//                                  new Person(38,"Smith"));
+        // line n1
 //        checkAge(iList,p->(p.getAge()>40));
+
     }
 
     /*
+    Which code fragment, when inserted at line n1, enables the code to print Hank?
+
+    A. checkAge (iList, ( ) -> p. get Age ( ) > 40);
+    B. checkAge(iList, Person p -> p.getAge( ) > 40);
+    C. checkAge (iList, p -> p.getAge ( ) > 40);
+    D. checkAge(iList, (Person p) -> { p.getAge() > 40; });
+
+
     * Answer C:
 
      Mainly because other options have syntax errors.*/
